@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 26.01.2024 Marcel Zelewski-->
+    <meta charset="UTF-8">
+
+</head>
+<body>
+    <ol type="1">
+        <li><h1>Opis</h1>
+            <ul type="dot">
+                <li><h1>Strict </h1>- składa się z bardzo rygorystycznych reguł co można a czego nie 
+                    można robić w danym dokumencie HTML</li>
+                <li><h1>Transitional</h1> -  jest bardziej łagodnym zbiorem zasad i potrafi 
+                    wybaczyć pewne rzeczy</li>
+                <li><h1>Frame Set</h1> - prawie na wymarciu w obecnych czasach.</li>
+            </ul>
+        </li>
+        <li><h1>Przykłady szablonów HTML 4.01 Transitional</h1>
+            <ul type="circle">
+                <li><h1>w tabeli:</h1><br>< !DOCTYPE html PUBLIC “-//W3C//DTD HTML 4.01 Transitional//EN” 
+                    “http://www.w3.org/TR/html4/loose.dtd”></li>
+                <li><h1>wytłumaczenie:</h1><br>Aby powiedzieć przeglądarce jakiego języka znaczników używamy, precyzujemy deklaracje <br>
+                    typu dokumentu (DocType) na samym początku kodu HTML, czyli przed znacznikiem <br>
+                    < html>. Podanie adresu wersji DTD, pozwala przeglądarce pobrać wersję DTD oraz <br>
+                    wszystkie potrzebne zestawy znaków<br></li>
+                <li><h1>dokładny opis:</h1><br>Deklaracja typu dokumentu Deklaracja typu dokumentu (DTD - document type declaration) określa poziom użytego na 
+                    stronie języka HTML:<br>
+                    <h1>Strict DTD</h1> - (ścisła) zawiera wszystkie elementy i atrybuty, które nie są zdeprecjonowane <br>
+                    (nie deprecated) oraz nie pojawiają się w dokumentach z ramkami (ponadto nie obejmuje <br>
+                    elementu IFRAME ani atrybutu target="...") <br><br>
+
+                    <h1>Frameset DTD</h1> - (dla ramek-ramkowa) zawiera wszystko co w Transitional DTD plus <br>
+                    elementy odnoszące się do ramek: FRAME, FRAMESET oraz NOFRAMES (używane na <br>
+                    stronach startowych ramek)<br> </li>
+            </ul>
+        </li>
+        <li><h1>Wartości domyślme</h1><br>
+            Jeśli nie podamy żadnej z powyższych wersji DTD, jako domyślna najprawdopodobniej <br>
+            zostanie przyjęta Transitional DTD (w MSIE), ale sposób ten absolutnie nie jest zalecany!<br> 
+            W każdym dokumencie HTML, na samym początku, powinna się pojawić deklaracja DTD. <br>
+            Najbezpieczniejszym rozwiązaniem, kiedy kluczowe znaczenie ma kompatybilność wstecz, <br>
+            wydaje się użycie Transitional DTD, chyba że chcemy się ściśle trzymać wytycznych <br>
+            specyfikacji co do znaczników i atrybutów zdeprecjonowanych, wtedy należy zastosować <br>
+            Strict DTD i nie używać tych znaczników ani atrybutów.<br></li>
+    </ol>
+
+
+
+
+</body>
+</html>

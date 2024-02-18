@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Marcel Zelewski 19.01.2024-->
+    <meta charset="UTF-8">
+</head>
+<body>
+    <ol type="1">
+        <!--Pytanie 1--><!--DONE-->
+        <li>)Jakie standardowo dostępne są czcionki w systemie Windows
+            <ul type="square">
+                <li>Times New Roman(Szeryfowa)</li>
+                <li>Arial(Bezszyfrowa)</li>
+                <li>Courier New(monotypiczna)</li>
+            </ul>
+        </li>
+        <!--Pytanie 2--><!--DONE-->
+        <li>)Jakich czcionek dodatkowo dostarcza Internet Explorerem .
+        <ul type="circle">
+            <li>Verdana</li>
+            <li>Tahoma</li>
+            <li>'Trebychet MS'</li>
+            <li>Georgia</li>
+        </ul>
+        </li>
+        <!--Pytanie 3--><!--DONE-->
+        <li>Wymień rodziny ogólne
+            <ul type="dot">
+                <li>serif - czcionka szeryfowa (końcówki znaków posiadają "ozdobniki"), np.: 'Times
+                    New Roman', Georgia, Garamond, Bodoni</li>
+                <li>sans-serif - czcionka bezszeryfowa (końcówki znaków są proste), np.: Arial, Verdana,
+                    'Trebuchet MS', Helvetica, Univers, Futura</li>
+                <li>monospace - czcionka o stałej szerokości znaków - monotypiczna (wygląda, jak
+                    pisana na maszynie), np.: Courier, 'Courier New'</li>
+                <li>cursive - czcionka mająca pewne cechy pochyłej (wygląda, jak pisana ręcznie)</li>
+                <li>fantasy - czcionka fantazyjna (dekoracyjna)</li>
+            </ul>
+        </li>
+        <!--Pytanie 4-->
+        <li>Kiedy stosujemy rodziny czcionek, w jaki sposób wpisujemy.<br><br>
+ 
+            body { font-family: Arial, Helvetica, Verdana, sans-serif } <br><br>
+Taki sposób jest mocno zalecany, gdyż wtedy nawet jeśli użytkownik nie będzie posiadał <br>
+żadnej z podanych czcionek, strona zostanie wyświetlona przy użyciu czcionki podobnej do <br>
+zdefiniowanych, a nie domyślnej, która może zupełnie nie pasować do typografii naszej <br>
+strony. Dlatego zawsze staraj się na końcu wpisywać rodzinę ogólną, do której należą <br>
+czcionki, podane w pierwszej kolejności (najczęściej wykorzystuje się rodziny: serif lub sans-serif). <br><br>
+Niestety, ponieważ w takim przypadku to przeglądarka automatycznie dobiera rodzaj <br>
+czcionki, może się zdarzyć, że wybierze czcionkę, która niepoprawnie zapisuje polskie znaki<br> 
+(tak się właśnie stało w mojej przeglądarce z rodziną fantasy). Chociaż jeśli chodzi o rodziny<br> 
+podstawowe (serif, sans-serif, monospace), wszystko powinno być w porządku. <br><br>
+        </li>
+        <!--Pytanie 5--><!--DONE-->
+        <li>Rodzaje wyrównanie tekstu
+            <ol type="I">
+                <li>Do prawej (kolor żółty)</li>
+                <li>Do lewej (kolor pomarańczowy)</li>
+                <li>Wyśrodkowane (kolor różowy)</li>
+                <li>Wyjustowane (kolor zielony)</li>
+            </ol>
+        </li>
+        <!--Pytanie 6--><!--DONE-->
+        <li>Kolor tekstu<br>
+            Składnia reguły:<br>     selektor {color: kolor;}<br><br>  
+            Wyraz selektor ma zastosowanie do wszystkich elementów.<br> Natomiast jako kolor należy podać definicję koloru.<br>
+            Dzięki temu poleceniu można ustalić dowolny kolor tekstu <br> <br></li>
+        <!--Pytanie 7-->
+        <li>dekoracja tekstu <br>
+            Tekst można „udekorować” w sposób następujący: <br>
+            a)  Podkreślić - (underline) <br>
+            b)  Przekreślić - (line-through) <br>
+            c) Nadkreślić - (overline) <br>
+            d)  Można dodać migotanie tekstu (tylko Netspace/Mozilla/Opera) – (blink) <br><br>
+ 
+            Składnia reguły:     <br>
+            selektor {text-decoration: dekoracja;}  <br><br>
+ 
+            Wyraz selektor ma zastosowanie do wszystkich elementów.  <br><br>    
+            
+            dekoracja:     <br>
+            "none"   - bez zmian czyli tekst bez podkreśleń, przekreśleń itp.    <br> 
+            "underline"   - podkreślenie     <br>
+            "line-through"  - przekreślenie     <br>
+            "overline"    - nadkreślenie <br>
+            "blink"   - migotanie tekstu (tylko Netscape/Mozilla/Opera)<br><br>
+        </li>
+        <!--Pytanie 8-->
+        <li>Warianty czcionek
+            <ul type="dot">
+         <li>   normal - czcionka normalna (podstawowa)  </li>
+            <li>  small-caps - kapitaliki  </li>
+                <li> "kapitaliki", czyli tekst napisany wielkimi literami, lecz czcionką o wielkości małych liter.  </li>
+        </ul>
+        </li>
+        <!--Pytanie 9-->
+        <li>Pogrubienie czcionek
+            <ul type="dot">
+               <li>normal - czcionka normalna (podstawowa)</li>     
+               <li>bold - czcionka pogrubiona</li>  
+               <li>100, 200, 300, 400 (odpowiednik "normal"), 500, 600, 700 (odpowiednik "bold"),<br> 
+                800, 900 - każdy następny numer wskazuje wagę czcionki przynajmniej tak samo <br>
+                wytłuszczonej jak dla poprzedniej wartości w sekwencji  <br>
+                Niektóre rodziny czcionek mogą nie posiadać wszystkich dziewięciu stopni wytłuszczenia. <br>
+                Wiele posiada tylko wartości "normal" i "bold". <br></li>  
+            </ul>
+        </li>
+        <!--Pytanie 10-->
+        <li>Rozmiar czcionek
+            <ol type="I">
+                <li>xx-small  - najmniejsza</li>
+                <li>x-small  - mniejsza</li>
+                <li>small    - mała </li>
+                <li>medium  - średnia</li>
+                <li>large   - duża</li>
+                <li>x-large   - większa</li>
+                <li>xx-large  - największa </li>
+            </ol>
+        </li>
+        <!--Pytanie 11-->
+        <li>Transformacja tekstu
+            Składnia reguły: <br>    
+            selektor {text-transform: transformacja;}  <br>
+            Wyraz selektor ma zastosowanie do wszystkich elementów.<br>      transformacja:     "none" - bez zmian<br>     "capitalize" - zamiana pierwszych liter wszystkich wyrazów na wielkie  <br>   "uppercase" - zamiana wszystkich liter na wielkie  <br>   "lowercase" - zamiana wszystkich liter na małe <br>
+            <br>
+        
+ 
+        </li>
+        <!--Pytanie 12-->
+        <li>Wcięcia tekstu<br>
+            Składnia reguły: <br>    selektor {text-indent: wcięcie;} <br><br> 
+Wyraz selektor ma zastosowanie do elementów blokowych<br><br>
+            Wcięcie tekstu  <br>
+            Składnia reguły:   <br>  selektor {text-indent: wcięcie;} <br> 
+            Wyraz selektor ma zastosowanie do elementów blokowych.   <br><br>   wcięcie:    <br> należy podać konkretną wielkość, używając jednostek miary:  <br>   piksele     - px   <br>  punkty edytorskie     - pt  <br>   wysokość litery "x"   - ex   <br>  wysokość aktualnej czcionki  - em   <br>  centymetry lub milimetry    - cm, mm  <br>   części dziesiętne centymetra pisane z kropką np.: 0.5cm    <br> cale      - in (1in=2.54cm)  <br>   procent wielkości nadrzędnej  - % <br><br>
+        </li>
+        <!--Pytanie 13-->
+        <li>Odstęp miedzy wierszami<br>
+            Składnia reguły:<br>     selektor {line-height: odstęp;} <br><br> Wyraz selektor ma zastosowanie do wszystkich elementów. <br>
+            <ol type="dot">
+                <li>piksele     - px </li>
+                <li>punkty edytorskie     - pt </li>
+                <li>wysokość litery "x"   - ex</li>
+                <li>wysokość aktualnej czcionki  - em </li>
+                <li>centymetry lub milimetry    - cm, mm</li>
+                <li>części dziesiętne centymetra pisane z kropką np.: 0.5cm</li>
+                <li>cale      - in (1in=2.54cm</li>
+                <li>procent wielkości nadrzędnej  -%</li>
+                <li>"normal"     - przywraca wartość domyślną</li>
+ 
+ 
+            </ol>
+        </li>
+        <!--Pytanie 14-->
+        <li>Odstęp między wyrazami<br>
+            Składnia reguły:   <br>  selektor {word-spacing: odstęp;} <br><br> Wyraz selektor ma zastosowanie do wszystkich elementów.<br><br>
+            <ol type="dot">
+                <li>piksele     - px </li>
+                <li>punkty edytorskie     - pt </li>
+                <li>wysokość litery "x"   - ex</li>
+                <li>wysokość aktualnej czcionki  - em </li>
+                <li>centymetry lub milimetry    - cm, mm</li>
+                <li>części dziesiętne centymetra pisane z kropką np.: 0.5cm</li>
+                <li>cale      - in (1in=2.54cm</li>
+                <li>"normal"     - przywraca wartość domyślną</li>
+ 
+ 
+            </ol>
+        </li>
+        <!--Pytanie 15-->
+        <li>Odstęp między literami<br>
+            Składnia reguły:<br>     selektor {letter-spacing: odstęp;}<br><br>  
+            Wyraz selektor ma zastosowanie do wszystkich elementów.<br><br>
+            <ol type="dot">
+                <li>piksele     - px </li>
+                <li>punkty edytorskie     - pt </li>
+                <li>wysokość litery "x"   - ex</li>
+                <li>wysokość aktualnej czcionki  - em </li>
+                <li>centymetry lub milimetry    - cm, mm</li>
+                <li>części dziesiętne centymetra pisane z kropką np.: 0.5cm</li>
+                <li>cale      - in (1in=2.54cm</li>
+                <li>"normal"     - przywraca wartość domyślną</li>
+ 
+ 
+            </ol></li>
+        <!--Pytanie 16-->
+        <li>Łączenie właściwości czcionek i tekstu<br>
+            Prawidłowa kolejność wartości atrybutów:
+            <ul type="1">
+                <li>font-style</li>
+                <li>font-variant</li>
+                <li>font-weight</li>
+                <li>font-size (po tym ukośnik „/”; bezpośrednio przed „line-height”)</li>
+                <li>line-height </li>
+                <li>font-family </li>
+            </ul><br>
+            Składnia reguły: <br>    selektor {font: wartości atrybutów;} <br><br>
+ 
+            Wyraz selektor ma zastosowanie do wszystkich elementów<br><br>
+ 
+            Jako wartości atrybutów wpisać należy zgodnie z podaną poniżej kolejnością, oddzielając <br>
+            spacjami, konkretne wartości, które opisują poszczególne atrybuty czcionek i tekstu. <br>
+            Można niektóre pominąć<br><br>
+        
+            wartości atrybutów: 
+            <ul type="square">
+                <li>font-style </li>
+                <li>font-variant</li>
+                <li>font-weight</li>
+                <li>font-size </li>
+                <li>line-height</li>
+                <li>font-family</li>
+            </ul><br>
+            Dzięki temu poleceniu można w jednym miejscu zebrać atrybuty dotyczące czcionek i <br>
+tekstu. Pomiędzy font-size, a line-height należy wstawić ukośnik (bezpośrednio przed <br>
+line-height).<br><br>
+        </li>
+    </ol>
+</body>
+</html>
